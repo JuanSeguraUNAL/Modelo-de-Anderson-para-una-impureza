@@ -83,7 +83,7 @@ for idx, T_Y in enumerate(T_Y_vals):
     plt.scatter(x_vals, C_vals, label=f'Residuo T$/\Delta$ = {T_Y}', color=colors[idx], marker='^')
 
 plt.xlabel(r"$\epsilon/\Delta$", fontsize=14)
-plt.ylabel("G/Go", fontsize=14)
+plt.ylabel("Conductancia", fontsize=14)
 plt.legend()
 plt.grid()
 plt.show()
